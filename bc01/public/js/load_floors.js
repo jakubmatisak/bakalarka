@@ -1,4 +1,3 @@
-let scene = null;
 $(window).on("load", function () {
     $.ajax({
         method: 'GET',
@@ -26,17 +25,12 @@ $("#floor").on('change', function () {
     switch (val) {
         case '1':
             if (scene != null)
-            scene.removeAllFromScene();
-            $.getScript("js/models/load_model1.js", function () {
-
-            });
-            break;
+                //Sem
+                break;
         case '2':
             if (scene != null)
-            scene.removeAllFromScene();
-            $.getScript("js/models/load_model2.js", function () {
-
-            });
-            break;
+                //Sem
+                break;
     }
 });
+

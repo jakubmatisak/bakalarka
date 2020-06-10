@@ -12,6 +12,7 @@
 
     <title>@lang('app_validation.title')</title>
 
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 
@@ -46,10 +47,7 @@
     <script src="https://npmcdn.com/flatpickr/dist/flatpickr.min.js"></script>
     <script src="https://npmcdn.com/flatpickr/dist/l10n/sk.js"></script>
 
-    <!-- BABYLON -->
-    <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
-    <script src="https://preview.babylonjs.com/babylon.js"></script>
-    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+
 
 </head>
 <body>
@@ -138,5 +136,19 @@
             data-close-text="@lang('app_validation.cookie-agree')"
             data-moreinfo="{{url('/cookies')}}">
     </script>
+
+    <script src="https://preview.babylonjs.com/babylon.js"></script>
+    <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://preview.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <script src="https://preview.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
+    <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+    <script src="https://preview.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+    <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
+    <script src="https://preview.babylonjs.com/nodeEditor/babylon.nodeEditor.js"></script>
+
+    <script src="{{ asset('js/models/load_model1.js') }}"></script>
+     <script src="{{ asset('js/load_floors.js') }}"></script>
+
 </body>
 </html>
